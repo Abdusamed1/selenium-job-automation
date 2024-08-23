@@ -2,7 +2,7 @@
 **Purpose
 This project is a Python-based web scraper that extracts job postings from Indeed. It retrieves job listings based on title, location, date posted, and experience level, and organizes the data neatly into an Excel file using openpyxl. The Excel file includes columns for job title, location, URL, date posted, applied status, and offer/rejected status. You can easily open the Excel file, click on the URLs to apply for jobs, and keep track of the jobs you’ve applied to.
 
-**Prerequisites**
+## Prerequisites**
 Before you begin, ensure you have the following installed on your computer:
 
 Python (version 3.7 or higher)
@@ -10,13 +10,13 @@ pip (Python package installer)
 Google Chrome (latest version)
 ChromeDriver (see instructions below)
 
-**Installation
-1. Clone the Repository
+## Installation
+## 1. Clone the Repository
 Clone the project repository from GitHub to your local machine:
 git clone https://github.com/Abdusamed1/selenium-job-automation.git
 cd indeed-job-scraper
 
-2. Create a Virtual Environment
+## 2. Create a Virtual Environment
 It's a good practice to use a virtual environment to manage dependencies:
 python -m venv venv
 Activate the virtual environment:
@@ -27,11 +27,11 @@ venv\Scripts\activate
 On macOS/Linux:
 source venv/bin/activate
 
-3. Install Dependencies
+## 3. Install Dependencies
 Install the required Python packages using pip:
 pip install -r requirements.txt
 
-4. Install ChromeDriver
+## 4. Install ChromeDriver
 For macOS:
 Download the ChromeDriver from the ChromeDriver download page.
 https://developer.chrome.com/docs/chromedriver
@@ -54,7 +54,7 @@ In the Environment Variables window, find the "Path" variable in the "System var
 Click "New" and add the path to the directory where you placed chromedriver.exe.
 Click "OK" on all windows to apply the changes.
 
-5. Run the Scraper
+## 5. Run the Scraper
 Execute the scraper script:
 python scraper.py
 
@@ -64,7 +64,7 @@ The script will start scraping Indeed for job postings based on the parameters d
 
 
 
-6. Excel Output
+## 6. Excel Output
 The Excel file will contain the following columns:
 
 Job Title: The title of the job posting.
