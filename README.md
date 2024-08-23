@@ -2,6 +2,10 @@
 **Purpose
 This project is a Python-based web scraper that extracts job postings from Indeed. It retrieves job listings based on title, location, date posted, and experience level, and organizes the data neatly into an Excel file using openpyxl. The Excel file includes columns for job title, location, URL, date posted, applied status, and offer/rejected status. You can easily open the Excel file, click on the URLs to apply for jobs, and keep track of the jobs you’ve applied to.
 
+
+![Alt text](//Users/awababdullahi/Desktop?raw=true "Optional Title")
+
+
 ## Prerequisites**
 Before you begin, ensure you have the following installed on your computer:
 
