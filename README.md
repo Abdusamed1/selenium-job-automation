@@ -4,8 +4,6 @@ This project is a Python-based web scraper that extracts job postings from Indee
 
 <img width="1440" alt="scrapper-results" src="https://github.com/user-attachments/assets/60738527-f8db-4534-b672-42001387cb78">
 
-![Alt text](/Users/awababdullahi/Desktop/scrapper-results.png?raw=true "Optional Title")
-
 
 ## Prerequisites**
 Before you begin, ensure you have the following installed on your computer:
@@ -67,12 +65,14 @@ python scraper.py
 
 The script will start scraping Indeed for job postings based on the parameters defined in config.py. The results will be saved in an Excel file located in the output directory.
 
-# If you experience indeed authorization pages, then you can click on the challenege response test to verify you are a human, the script will wait 10 seconds for you to bypass that
+# If you experience indeed authorization pages, then you can click on the challenege response test to verify you are a human, 
 
+the<img width="1440" alt="authentication-page" src="https://github.com/user-attachments/assets/e8cb8ce2-7f7b-4324-90a9-84df4680280b">
+ script will wait 10 seconds for you to bypass that
 
 
 ## 6. Excel Output
-The Excel file will contain the following columns:
+The Excel will be saved as job_listings by default, you can change them name. The file will contain the following columns:
 
 Job Title: The title of the job posting.
 Location: The location of the job.
