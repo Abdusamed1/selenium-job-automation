@@ -61,13 +61,14 @@ Click "OK" on all windows to apply the changes.
 
 ## 5. Run the Scraper
 Execute the scraper script:
-python scraper.py
+python job_scraper.py
 
 The script will start scraping Indeed for job postings based on the parameters defined in config.py. The results will be saved in an Excel file located in the output directory.
 
 # If you experience indeed authorization pages, then you can click on the challenege response test to verify you are a human, 
 
-the<img width="1440" alt="authentication-page" src="https://github.com/user-attachments/assets/e8cb8ce2-7f7b-4324-90a9-84df4680280b">
+<img width="1431" alt="authentication-page" src="https://github.com/user-attachments/assets/b003a137-894c-474b-8430-79bb92e7eae9">
+
  script will wait 10 seconds for you to bypass that
 
 
@@ -81,7 +82,7 @@ Date Posted: The date when the job was posted.
 Applied: Status of whether the job has been applied to.
 Offer/Rejection: Status of whether the job has resulted in an offer or rejection.
 
-7. (Optional) Test the Setup
+## 7. (Optional) Test the Setup
 To ensure everything is working correctly, you can run any included test cases:
 pytest
 Troubleshooting
@@ -91,7 +92,7 @@ ChromeDriver Version Mismatch: Ensure the version of ChromeDriver matches your C
 Permissions Issues: Ensure chromedriver has execute permissions on macOS. You can modify permissions using:
 chmod +x /usr/local/bin/chromedriver
 
-8.Contribution
+## 8.Contribution
 If you'd like to contribute to this project, please fork the repository and create a pull request.
 
 License
