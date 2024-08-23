@@ -1,7 +1,7 @@
 import pytest
 from openpyxl import load_workbook
 from pathlib import Path
-from Code.job_scrapper import save_to_excel  # Update this with the actual module name
+from Code.job_scrapper import save_to_excel
 
 # Sample jobs data
 jobs = [
