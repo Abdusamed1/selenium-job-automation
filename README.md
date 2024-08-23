@@ -44,6 +44,8 @@ sudo mv chromedriver /usr/local/bin/
 Now for Windows:
 Download the ChromeDriver from the ChromeDriver download page.
 https://developer.chrome.com/docs/chromedriver/get-started
+Heres a youtbe video you can follow if you're having trouble downloading chromedriver for Windows
+https://www.youtube.com/watch?v=KqWUC-xWYpA
 
 Extract the chromedriver.exe file and place it in a directory of your choice.
 Add this directory to your system’s PATH environment variable:
